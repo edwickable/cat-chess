@@ -1,13 +1,9 @@
 import tornado.ioloop
 import tornado.web
 
-class MainHandler(tornado.web.RequestHandler):
-    def get(self):
-        self.write("Hello, world")
-
 def make_app():
     return tornado.web.Application([
-        (r"/", MainHandler),
+        (r"/(.*)", tornado.web.StaticFileHandler, {"path": "./frontend/build", "default_filename": "index.html"})
     ])
 
 if __name__ == "__main__":
