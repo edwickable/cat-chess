@@ -1,0 +1,17 @@
+.SideBar {
+    display: inline-block;
+    width: 20vw;
+    height: 80vh;
+    margin: 1em;
+    background-color: #b8ddf5;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+
+  @media screen and (max-width:1024px) {
+    .SideBar {
+      display: block;
+      width: 90vw;
+      height: 3em;
+    }
+  }

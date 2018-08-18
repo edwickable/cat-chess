@@ -26,7 +26,7 @@ class Chessboard extends Component {
   }
 
   render() {
-    const {pieces} = this.state
+    const {pieces} = this.state;
     return (
       <div className="Chessboard">
         <Chess

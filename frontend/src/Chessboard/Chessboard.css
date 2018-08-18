@@ -1,5 +1,14 @@
 .Chessboard {
+    display: inline-block;
     width: 80vh;
+    margin: 1em;
     border-radius: 20px;
     overflow: hidden;
 }
+
+@media screen and (max-width:1024px) {
+    .Chessboard {
+      display: block;
+      width: 90vw;
+    }
+  }

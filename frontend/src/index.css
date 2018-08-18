@@ -1,6 +1,18 @@
+#root {
+  display: table;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
 body {
   margin: 0;
   padding: 0;
+  height: 100%;
   font-family: sans-serif;
   background-color: #0d84cf;
+}
+
+html {
+  height: 100%;
 }
