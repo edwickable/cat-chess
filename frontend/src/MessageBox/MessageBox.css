@@ -1,0 +1,35 @@
+.MessageBox {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    flex: 1;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 130%;
+    text-align: left;
+    color: #16a0f7;
+}
+
+li:nth-child(odd) {
+    background: white;
+}
+
+.InputBox {
+    height: 50px;
+}
+
+input {
+    width: 100%;
+    height: 100%;
+    border: none;
+}

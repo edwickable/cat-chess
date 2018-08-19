@@ -1,12 +1,16 @@
 import React, { Component } from 'react';
 import './SideBar.css';
+import StatusBar from '../StatusBar/StatusBar';
+import MessageBox from '../MessageBox/MessageBox';
 
 class SideBar extends Component {
   render() {
     return (
       <div className="SideBar">
-        <div>*current status*</div>
-        <div>*chat messages*</div>
+        <div className="InnerSideBar">
+          <StatusBar />
+          <MessageBox />
+        </div>
       </div>
     );
   }
